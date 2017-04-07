@@ -29,6 +29,12 @@ en:
     footer:
       content: "The Ruby on Rails Tutorial by Michael Hartl"
   users:
+    create_success: "Successfully created..."
     new:
       title: "Sign up"
       content: "This will be a signup page for new users."
+      create: "Create my account"
+      confirm: "Confirmation"
+  shared:
+    error_messages:
+      error_form: "The form contains"
