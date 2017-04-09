@@ -9,9 +9,9 @@ module ApplicationHelper
   end
 
   def flash_application flash
-    unless flash.empty?
+    if flash.present?
       flash.each do |message_type, message|
-        content_tag(:div, message, class: ["alert", "alert-#{message_type}"])
+        content_tag :div, message, class: "alert alert-#{message_type}"
       end
     end
   end
