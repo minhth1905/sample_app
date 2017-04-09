@@ -23,9 +23,15 @@ en:
       content: "This is a text, with a inside."
   layouts:
     header:
+      account: "Account"
       app_name: "Sample app"
       home: "Home"
       help: "Help"
+      login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      setting: "Settings"
+      user: "Users"
     footer:
       content: "The Ruby on Rails Tutorial by Michael Hartl"
   users:
@@ -38,3 +44,10 @@ en:
   shared:
     error_messages:
       error_form: "The form contains"
+  sessions:
+    session_fails: "Invalid email/password combination"
+    new:
+      title: "Login"
+      submit: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
